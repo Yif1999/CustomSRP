@@ -7,23 +7,22 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: unlit
-  m_Shader: {fileID: 4800000, guid: e4a909bbf05df44b5983b02e09f72d6b, type: 3}
-  m_ValidKeywords:
-  - _CLIPPING
+  m_Name: lit
+  m_Shader: {fileID: 4800000, guid: 72fe39bec65354fe5aa04de9791c2835, type: 3}
+  m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
-  m_EnableInstancingVariants: 1
+  m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2450
+  m_CustomRenderQueue: 2000
   stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
     - _BaseMap:
-        m_Texture: {fileID: 10300, guid: 0000000000000000f000000000000000, type: 0}
-        m_Scale: {x: 10, y: 1}
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 20, y: 20}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
         m_Texture: {fileID: 0}
@@ -64,24 +63,26 @@ Material:
     m_Ints: []
     m_Floats:
     - _BumpScale: 1
-    - _Clipping: 1
-    - _Cutoff: 0.188
+    - _Clipping: 0
+    - _Cutoff: 0.367
     - _DetailNormalMapScale: 1
     - _DstBlend: 6
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
-    - _Metallic: 0
+    - _Metallic: 0.045
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
+    - _PremulAlpha: 0
+    - _Smoothness: 0.343
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 5
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 0.9716981, g: 0.7104397, b: 0.95374614, a: 0.4745098}
+    - _BaseColor: {r: 0.8867924, g: 0.76617694, b: 0.6148985, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []

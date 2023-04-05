@@ -9,4 +9,4 @@ Unity 2021.3.14f1c1 LTS
 ## TODO
 
 - [x] 01 - Custom Render Pipeline
-
+- [x] 02 - Draw Calls
