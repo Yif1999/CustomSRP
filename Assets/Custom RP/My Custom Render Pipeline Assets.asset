@@ -12,6 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7352b7d68bf5e4459b0f26307a7d10f7, type: 3}
   m_Name: My Custom Render Pipeline Assets
   m_EditorClassIdentifier: 
-  useDynamicBatching: 0
+  useDynamicBatching: 1
   useGPUInstancing: 1
-  useSRPBatcher: 0
+  useSRPBatcher: 1
+  shadows:
+    maxDistance: 20.2
+    directional:
+      atlasSize: 1024
+      cascadeCount: 4
+      cascadeRatio1: 0.1
+      cascadeRatio2: 0.25
+      cascadeRatio3: 0.5
