@@ -9,17 +9,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7352b7d68bf5e4459b0f26307a7d10f7, type: 3}
-  m_Name: My Custom Render Pipeline Assets
+  m_Script: {fileID: 11500000, guid: 303faffb440c647beae695d2210a248f, type: 3}
+  m_Name: My Custom Render Pipeline Asset
   m_EditorClassIdentifier: 
   useDynamicBatching: 1
   useGPUInstancing: 1
   useSRPBatcher: 1
   shadows:
-    maxDistance: 20.2
+    maxDistance: 19.4
+    distanceFade: 0.321
     directional:
-      atlasSize: 1024
+      atlasSize: 4096
+      filter: 2
       cascadeCount: 4
       cascadeRatio1: 0.1
       cascadeRatio2: 0.25
       cascadeRatio3: 0.5
+      cascadeFade: 0.1
+      cascadeBlend: 1
